@@ -3,14 +3,16 @@ require 'pry'
 class Anagram
   attr_accessor :word
   
-  @@words = []
+  @@match = []
   
   def initialize(word)
     @word = word
-    @@words << self
+    @@match << self
   end
   
   def self.match(word)
+    array = []
+    array << word
     array.collect do |i|
       i == "#{word}"
       array
