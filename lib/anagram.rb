@@ -14,7 +14,7 @@ class Anagram
     array = []
     array << word
     array.each do |i|
-      i == "#{word}"
+      i == word
       array
     end
   end
