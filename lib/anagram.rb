@@ -13,7 +13,7 @@ class Anagram
   def self.match(word)
     array = []
     array << word
-    array.collect do |i|
+    array.each do |i|
       i == "#{word}"
       array
     end
