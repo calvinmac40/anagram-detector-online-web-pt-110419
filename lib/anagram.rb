@@ -9,10 +9,10 @@ class Anagram
     @word = word
   end
   
-  def self.match(words)
+  def self.match(word)
     array = []
     array.collect do |i|
-      i == "#{words}"
+      i == "#{word}"
       array
     end
   end
