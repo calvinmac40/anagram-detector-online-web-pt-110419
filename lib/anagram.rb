@@ -14,8 +14,6 @@ class Anagram
     array.collect do |i|
       i == "#{word}"
       array
-      binding.pry
-    
     end
   end
 end
