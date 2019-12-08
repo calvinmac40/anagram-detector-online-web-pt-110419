@@ -11,10 +11,10 @@ class Anagram
   
   def match(word)
     array = []
-    # array.collect do |i|
-    #   i == "#{word}"
-    #   array
-    # end
+    array.collect do |i|
+      i == "#{word}"
+      array
+    end
   end
   
 end
