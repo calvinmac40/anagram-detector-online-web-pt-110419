@@ -17,6 +17,4 @@ class Anagram
       array
     end
   end
-  
-  def
 end
