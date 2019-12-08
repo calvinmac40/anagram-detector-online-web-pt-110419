@@ -13,6 +13,7 @@ class Anagram
     array = []
     word.each do |i|
       i == "#{word}"
+      array
     end
   end
   
