@@ -11,7 +11,7 @@ class Anagram
   
   def match(word)
     array = []
-    array.detect do |i|
+    array.collect do |i|
       i == "#{word}"
       array
     end
