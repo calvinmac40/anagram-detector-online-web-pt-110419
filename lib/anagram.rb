@@ -13,6 +13,7 @@ class Anagram
     array = []
     array.collect do |i|
       i == "#{word}"
+      binding.pry
       array
     end
   end
