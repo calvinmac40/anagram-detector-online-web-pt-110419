@@ -9,7 +9,7 @@ class Anagram
     @word = word
   end
   
-  def match(word)
+  def self.match(word)
     array = []
     array.collect do |i|
       i == "#{word}"
